@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+
+body{
+    width: 90%;
+    margin: auto;
+}
 .tabs{
     overflow: hidden;
     border: 1px solid #f14b47;
@@ -14,9 +18,10 @@
 .tablinks{}
 
 table,th, td {
-    border: 1px solid black;
+    border: 1px solid #f14b47;
+    background-color: #d6d1d5;
 }
-=======
+
 .img{
     max-width: 80px;
     position: relative;
@@ -36,29 +41,12 @@ table,th, td {
     font-weight:bold;
 }
 
+.counter{
+    height: 40px;
+    width: auto;
+    padding: 5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> a80f9f840feb3dd8135944edacee2ee473c9f369
+.inner_counter{
+  
+}
