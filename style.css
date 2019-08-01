@@ -14,10 +14,14 @@ body {
   border: 1px solid #f14b47;
   border-top: none;
 }
+<<<<<<< HEAD
+table, th, td {
+=======
 
 /* .tablinks {
 } */
 
+<<<<<<< HEAD
 table,
 th,
 td {
@@ -29,14 +33,28 @@ td {
   max-width: 80px;
   position: relative;
   margin: auto;
+=======
+table, th,tr {
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
+    border: 1px solid #f14b47;
+    background-color: #d6d1d5;
+}
+
+.img {
+    max-width: 100px;
+    position: relative;
+    margin: auto;
+>>>>>>> 536ca16e177bfebf622958aed6d4f2e7f72f3c40
 }
 
 .slider-show {
   display: none;
 }
-
+<<<<<<< HEAD
 /* Next & previous buttons */
+.prev, .next {
 
+<<<<<<< HEAD
 .prev,
 .next {
   cursor: pointer;
@@ -66,19 +84,81 @@ td {
   background-color: aliceblue;
   align-content: center;
   margin: auto;
+=======
+=======
+
+/* Next & previous buttons */
+
+.prev, .next {
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+<<<<<<< HEAD
+    margin-top:-20px;
+    padding:15px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    transition: 0.6s ease ;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.5);
+=======
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top: -10px;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
+}
+
+.counter {
+    height: 40px;
+    max-width: 300px;
+    width: auto;
+    padding: 5px;
+    background-color: aliceblue;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+
+>>>>>>> 536ca16e177bfebf622958aed6d4f2e7f72f3c40
+}
+<<<<<<< HEAD
+=======
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+<<<<<<< HEAD
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
+=======
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+>>>>>>> 536ca16e177bfebf622958aed6d4f2e7f72f3c40
 }
 
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
 .inner_counter {
+<<<<<<< HEAD
   height: auto;
   width: auto;
   border: none;
@@ -92,3 +172,23 @@ td {
   display: block;
   background-color: green;
 }
+=======
+    height: auto;
+    width: auto;
+    border: none;
+    background-color: #d6d1d5;
+    vertical-align: auto;
+    align-content: center;
+    margin: 5px
+}
+
+.active {
+    display: block;
+    background-color: green;
+
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
+>>>>>>> 536ca16e177bfebf622958aed6d4f2e7f72f3c40
