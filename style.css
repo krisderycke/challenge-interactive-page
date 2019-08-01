@@ -54,11 +54,12 @@ table, th,tr {
 
 .counter {
     height: 40px;
-    width: auto;
     max-width: 300px;
+    width: auto;
     padding: 5px;
     background-color: aliceblue;
     align-content: center;
+    text-align: center;
     margin: auto;
 
 }
