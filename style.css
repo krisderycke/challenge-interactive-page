@@ -15,7 +15,15 @@ body {
     border: 1px solid #f14b47;
     border-top: none;
 }
+<<<<<<< HEAD
 table, th, td {
+=======
+
+.tablinks {
+}
+
+table, th,tr {
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
     border: 1px solid #f14b47;
     background-color: #d6d1d5;
 }
@@ -29,13 +37,21 @@ table, th, td {
 .slider-show {
     display: none;
 }
+<<<<<<< HEAD
 /* Next & previous buttons */
 .prev, .next {
 
+=======
+
+/* Next & previous buttons */
+
+.prev, .next {
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
+<<<<<<< HEAD
     margin-top:-20px;
     padding:15px;
     color:black;
@@ -52,6 +68,17 @@ table, th, td {
 }
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.5);
+=======
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top: -10px;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
 }
 
 .counter {
@@ -64,6 +91,21 @@ table, th, td {
     margin: auto;
 
 }
+<<<<<<< HEAD
+=======
+
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
 .inner_counter {
     height: auto;
     width: auto;
@@ -71,11 +113,15 @@ table, th, td {
     background-color: #d6d1d5;
     vertical-align: auto;
     align-content: center;
-    margin:5px
+    margin: 5px
 }
 
-.active{
+.active {
     display: block;
     background-color: green;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9227b88128bd1561a61fe56571ab71baabcdf362
