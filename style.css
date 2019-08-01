@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-               <head>
-               <meta charset="UTF-8">
-<title>challenge-interactive-page</title>
-</head>
-  <body>
+.tabs{
+    overflow: hidden;
+    border: 1px solid #f14b47;
+    background-color: #d6d1d5;
+}
 
+.tabcontent{
+    background-color: #d6d1d5;
+    border: 1px solid #f14b47;
+    border-top: none;
+}
 
+.tablinks{}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
+table,th, td {
+    border: 1px solid black;
+}
