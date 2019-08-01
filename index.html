@@ -7,22 +7,13 @@
 </head>
 <body>
 <header>
-
+    <!-- Slideshow container -->
     <div class="slideshow-container">
         <!--full-width images with number caption text -->
         <div class="slider-show"></div>
         <div class="number text">1 / 3</div>
         <img src="Assets/art-band-bass-1327430.jpg" style="width:100%">
-
-    <!-- Slideshow container -->
-   <div class="slideshow-container">
-
-       <div class="slider-show">
-           <div class="number text">1 / 3</div>
-           <img src="Assets/art-band-bass-1327430.jpg" style="width:100%">
-
-</div>
-   </div>
+    </div>
 
        <div class="slideshow-container">
            <div class="slider-show">
@@ -34,29 +25,21 @@
        <div class="slideshow-container" >
            <div class="slider-show">
                <div class="number text">3 / 3</div>
-               <img src ="Assets/jazz-musical-instrument-sax-164936.jpg" style="width:100%">
+               <img src ="band-concert-festival-1358817.jpg" style="width:100%">
            </div>
        </div>
 
            <!-- Next and previous buttons -->
-       <div>
-           <span class="dot" onlclick="currentslide(1)"></span>
-           <span class="dot" onlclick="currentslide(2)"></span>
-           <span class="dot" onlclick="currentslide(3)"></span>
-       </div>
-
+    <div>
+    <a class="prev" onclick="slideshow(-1)">&#10094;</a>
+    <a class="next" onclick="slideshow(1)">&#10095;</a>
     </div>
 
 </header>
+
 <body>
-
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Document</title>
-</head>
-
 
 <!-- online tutorial gebruikt: https://www.w3schools.com/howto/howto_js_tabs.asp -->
 <!-- tabs -->
@@ -67,6 +50,7 @@
 </div> -->
 
 <!-- tabs content-->
+
 <div class="tabs">
     <button class="tablinks" onclick="openDay(event, 'Day')">15/08</button>
     <button class="tablinks" onclick="openDay(event, 'Day')">16/08</button>
@@ -96,7 +80,6 @@
             <td> :21.30u - 23.00u - Main Stage</td>
     </table>
 </div>
-</div>
 
 <div class="tabs">
     <button class="tablinks">15/08</button>
@@ -125,7 +108,9 @@
 <div class="tabs">
     <button class="tablinks">15/08</button>
 <div  class="tabcontent">
+
     <h3> Programma</h3>
+
     <table>
         <tr>
             <td>DE BEREN GIEREN</td>
@@ -170,11 +155,12 @@
         </tr>
     </table>
 </div>
-</div>
+
     <div class="counter"></div>
 
     <div class="inner_counter">
 <script src="app.js"></script>
 
-</div></body>
+</div>
+</body>
 </html>
