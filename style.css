@@ -39,7 +39,8 @@ table, th, td {
 
 
 .prev, .next {
->>>>>>> 669b3f5967c44c82f1225ac8f3bec26728e3172a
+
+.prev,.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
